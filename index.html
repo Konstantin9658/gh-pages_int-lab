@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html class="page" lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.min.css">
+  <title>testLab</title>
+</head>
+<body class="page__body">
+  <header class="header">
+    <div class="container">
+      <div class="header__wrapper">
+        <div class="header__logo">
+          <a class="header__logo-link header__logo-link--no-js" href="#!">testLab</a>
+        </div>
+        <nav class="header__nav header__nav--no-js">
+          <ul class="header__nav-list">
+            <li class="header__nav-item">
+              <a href="#how-it-works" class="header__nav-link">
+                Как это работает
+                <svg width="32" height="32" role="img">
+                  <use xlink:href="img/sprite.svg#icon-arrow"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="header__nav-item">
+              <a href="#third-block" class="header__nav-link">
+                3-й блок
+                <svg width="32" height="32" role="img">
+                  <use xlink:href="img/sprite.svg#icon-arrow"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="header__nav-item">
+              <a href="#!" class="header__nav-link">
+                Вопросы и ответы
+                <svg width="32" height="32" role="img">
+                  <use xlink:href="img/sprite.svg#icon-arrow"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="header__nav-item">
+              <a href="#!" class="header__nav-link">
+                Форма
+                <svg width="32" height="32" role="img">
+                  <use xlink:href="img/sprite.svg#icon-arrow"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </nav>
+        <button class="header__nav-btn header__nav-btn--burger header__nav-btn--no-js" type="button" aria-label="Меню"></button>
+      </div>
+      <div class="header__content">
+        <h1>Говорят, никогда не поздно сменить профессию</h1>
+        <p>Сделай круто тестовое задание и у тебя получится</p>
+        <button type="button" class="button header__button" aria-label="Описание :)">Проще простого!</button>
+      </div>
+    </div>
+  </header>
+  <main class="main">
+    <section class="features container" id="how-it-works">
+      <h2>Как это работает</h2>
+      <ul class="features__list">
+        <li class="features__item">
+          <svg width="72" height="72" role="img" alt="Иконка с часами и курсором">
+            <use xlink:href="img/sprite.svg#icon-waiting"></use>
+          </svg>
+          <h3>Прочитай задание внимательно</h3>
+          <p>Думаю у тебя не займет это больше двух-трех минут</p>
+        </li>
+        <li class="features__item">
+          <svg width="72" height="72" role="img" alt="Иконка грузовой газели">
+            <use xlink:href="img/sprite.svg#icon-delivery-truck"></use>
+          </svg>
+          <h3>Изучи весь макет заранее</h3>
+          <p>Подумай как это будет работать на разных разрешениях и при скролле</p>
+        </li>
+        <li class="features__item">
+          <svg width="72" height="72" role="img" alt="Иконка цели">
+            <use xlink:href="img/sprite.svg#icon-secure"></use>
+          </svg>
+          <h3>Сделай хорошо</h3>
+          <p>Чтобы мы могли тебе доверить подобные задачи в будущем</p>
+        </li>
+        <li class="features__item">
+          <svg width="72" height="72" role="img" alt="Иконка мешков с деньгами">
+            <use xlink:href="img/sprite.svg#icon-money-bags"></use>
+          </svg>
+          <h3>Получи предложение</h3>
+          <p>Ну тут все просто, не я придумал правила, но думаю так и будет)))</p>
+        </li>
+      </ul>
+    </section>
+    <section class="block-third container" id="third-block">
+      <h2 class="visually-hidden">Общая информация</h2>
+      <div class="block-third__img">
+        <picture>
+          <source type="image/webp" srcset="img/third-block-img.webp 1x, img/third-block-img@2x.webp 2x">
+          <!-- 1x: 592px; 2x: 1184px-->
+          <img src="img/third-block-img.png" srcset="img/third-block-img2x.png 2x" width="592" height="448" alt="Реклама приложения">
+        </picture>
+      </div>
+      <div class="block-third__text">
+        <h3>Круто, ты дошел до третьего блока</h3>
+        <p class="block-third__description block-third__description--double-shift">
+          63% опрошенных пользовались кредитами из-за того, что не могли покрыть непредвиденные
+          расходы свыше 15 000 ₽.
+        </p>
+        <p class="block-third__description">
+          Доступ к заработанным деньгам помогает отказаться от кредитов и экономить деньги на
+          процентах и штрафах.
+        </p>
+      </div>
+    </section>
+    <section class="feedback">
+      <div class="container">
+        <h2>Отзывы</h2>
+        <div class="feedback__slider">
+          <div class="feedback__slider-card">
+            <blockquote class="feedback__card-quote">
+              <div class="feedback__card-user">
+                <img src="img/user-avatar-01.png" width="44" height="44" alt="Аватар пользователя">
+                <p>Константинов Михаил Павлович<br><span>Санкт-Петербург</span></p>
+              </div>
+              <p>
+                Каждый из нас понимает очевидную вещь: перспективное планирование предоставляет широкие
+                возможности для анализа существующих паттернов поведения. В своём стремлении улучшить
+                пользовательский опыт мы
+              </p>
+            </blockquote>
+          </div>
+          <div class="feedback__slider-card">
+            <blockquote class="feedback__card-quote">
+              <div class="feedback__card-user">
+                <img src="img/user-avatar-02.png" width="44" height="44" alt="Аватар пользователя">
+                <p>Иван Иванов<br><span>Санкт-Петербург</span></p>
+              </div>
+              <p>
+                Каждый из нас понимает очевидную вещь: перспективное планирование предоставляет широкие
+                возможности для анализа существующих паттернов поведения. В своём стремлении улучшить
+                пользовательский опыт мы упускаем, что активно развивающиеся страны третьего мира призваны
+                к ответу.
+              </p>
+            </blockquote>
+          </div>
+          <div class="feedback__slider-card">
+            <blockquote class="feedback__card-quote">
+              <div class="feedback__card-user">
+                <img src="img/user-avatar-03.png" width="44" height="44" alt="Аватар пользователя">
+                <p>Артем Корнилов<br><span>Самара</span></p>
+              </div>
+              <p>
+                Каждый из нас понимает очевидную вещь: перспективное планирование предоставляет широкие
+                возможности для анализа существующих паттернов поведения.
+              </p>
+            </blockquote>
+          </div>
+          <button class="feedback__slider-btn-left" type="button" aria-label="Предыдущий слайд">
+            <svg width="32" height="32" role="img">
+              <use xlink:href="img/sprite.svg#icon-arrow"></use>
+            </svg>
+          </button>
+          <button class="feedback__slider-btn-right" type="button" aria-label="Следующий сдайд">
+            <svg width="32" height="32" role="img">
+              <use xlink:href="img/sprite.svg#icon-arrow"></use>
+            </svg>
+          </button>
+        </div>
+        <div class="feedback__slider-bullits">
+          <button class="feedback__slider-bullit feedback__slider-bullit--active" type="button" aria-label="Первый слайд"></button>
+          <button class="feedback__slider-bullit" type="button" aria-label="Второй слайд"></button>
+          <button class="feedback__slider-bullit" type="button" aria-label="Третий слайд"></button>
+          <button class="feedback__slider-bullit" type="button" aria-label="Четвертый слайд"></button>
+          <button class="feedback__slider-bullit" type="button" aria-label="Следующий слайд"></button>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <h2 class="visually-hidden">Разработано</h2>
+    <p>© 2021 Лаборатория интернет</p>
+  </footer>
+  <script src="js/main.js"></script>
+</body>
+</html>
